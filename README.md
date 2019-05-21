@@ -35,6 +35,10 @@ This module extends the built-in Seq class by the following methods.
 
 ## method partial
 
+``` perl6
+multi mehod partial
+```
+
 Returns a new Seq which shares the current one's iterator.
 
 This allows you to iterate a Seq partially without it being marked as consumed. It also means that both sequences race for the same source of values, so be wary of passing both Seqs around to other code.

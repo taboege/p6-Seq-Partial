@@ -62,6 +62,8 @@ augment class Seq {
 
     =head2 method partial
 
+        multi method partial
+
     Returns a new Seq which shares the current one's iterator.
 
     This allows you to iterate a Seq partially without it being marked
