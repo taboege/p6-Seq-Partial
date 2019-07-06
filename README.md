@@ -36,7 +36,7 @@ This module extends the built-in Seq class by the following methods.
 ## method partial
 
 ``` perl6
-multi mehod partial
+multi method partial
 ```
 
 Returns a new Seq which shares the current one's iterator.
