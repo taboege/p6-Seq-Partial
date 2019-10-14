@@ -13,6 +13,6 @@
   "test-depends"   : [
     "Test::META"
   ],
-  "source-url"     : "git://github.com/taboege/p6-Seq-Partial.git",
+  "source-url"     : "git://github.com/taboege/raku-Seq-Partial.git",
   "tags"           : [ "Seq" ]
 }
